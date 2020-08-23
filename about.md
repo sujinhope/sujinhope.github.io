@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: article
 titles:
   # @start locale config
@@ -24,7 +24,7 @@ titles:
   fr-LU   : *FR
   # @end locale config
 key: page-about
----
+--- -->
 
 ![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
 
