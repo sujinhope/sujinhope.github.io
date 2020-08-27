@@ -72,12 +72,12 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
-    url: /study.html
+    url: /archive.html?tag=Web
 
 
   - titles:
       # @start locale config
-      en      : &EN       Algorithm
+      en      : &EN       
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -98,4 +98,4 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
-    url: /algorithm.html
+    url: /archive.html?tag=Algorithm
