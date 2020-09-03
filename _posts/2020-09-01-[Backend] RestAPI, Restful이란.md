@@ -11,7 +11,18 @@ tags:
 
 
 
-### **RESTful**
+**목차**
+
+1. <a href="#title1">RESTful</a>
+2. <a href="#title2">REST(REpresentational State Transfer)</a>
+   1. <a href="#subtitle1">장단점</a>
+   2. <a href="#subtitle2">필요한 이유</a>
+   3. <a href="#subtitle3">구성요소</a>
+   4. <a href="#subtitle4">특징</a>
+
+
+
+<h3 id="title1">RESTful</h3>
 
 - REST API를 제공하는 웹 서비스를 RESTful하다고 한다.
 
@@ -21,7 +32,7 @@ tags:
 
   <br/>
 
-### **Rest(REpresentational State Transfer)**
+<h3 id="#title2">Rest(REpresentational State Transfer)</h3>
 
 - 자원을 이름으로 구분하여 해당 자원의 정보를 주고받는 모든 것.
 
@@ -37,7 +48,7 @@ tags:
 
 <br/>
 
-##### **장단점**
+<h5 id="subtitle1">장단점</h5>
 
 - 장점
   - HTTP 프로토콜 인프라를 그대로 사용. HTTP 표준 프로토콜을 따르는 모든 플랫폼엥서 사용 가능.
@@ -51,13 +62,13 @@ tags:
 
 <br/>
 
-##### **필요한 이유**
+<h5 id="subtitle2">필요한 이유</h5>
 
 - 다양한 클라이언트의 등장 - 요즘은 다양한 브라우저와 안드로이드, 아이폰과 같은 모바일 디바이스에서도 통신이 가능해야 한다.
 
   <br/>
 
-##### **구성요소**
+<h5 id="subtitle3">구성요소</h5>
 
 - URI(자원)
 - HTTP Method(행위)
@@ -65,7 +76,9 @@ tags:
 
 <br/>
 
-##### **특징**
+
+
+<h5 id="subtitle4">특징</h5>
 
 - Server-Client 구조
 
