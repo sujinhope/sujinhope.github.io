@@ -7,7 +7,7 @@ tags:
 
 <br/>
 
-[TOC]
+
 
 
 
@@ -20,7 +20,7 @@ tags:
    3. <a href="#subtitle3">구성요소</a>
    4. <a href="#subtitle4">특징</a>
 
-
+<br/><br/>
 
 <h3 id="title1">RESTful</h3>
 
@@ -30,6 +30,8 @@ tags:
 
   <br/>
 
+  <br/>
+  
   <br/>
 
 <h3 id="#title2">Rest(REpresentational State Transfer)</h3>
@@ -44,7 +46,7 @@ tags:
 
 - 네트워크 상에서 Client와 Server 사이의 통신 방식 중 하나.
 
-- ==HTTP URI를 통해 자원을 명시하고 Post, Get, Put, Delete, Head와 같은 HTTP Method를 통해 해당 자원에 대한 CRUD를 적용하는 것.==
+- **HTTP URI를 통해 자원을 명시하고 Post, Get, Put, Delete, Head와 같은 HTTP Method를 통해 해당 자원에 대한 CRUD를 적용하는 것.**
 
 <br/>
 
