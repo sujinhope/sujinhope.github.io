@@ -1,15 +1,16 @@
 ---
-tags:
-- Web
-- Backend
-- Network
-
 layout: article
+title: REST, Restful
 article_header:
   type: overlay
   theme: dark
   background_image:
-    src: /docs/assets/images/background.jpg
+    src: /docs/assets/images/background1.jpg
+
+tags:
+- Web
+- Backend
+- Network
 ---
 
 
