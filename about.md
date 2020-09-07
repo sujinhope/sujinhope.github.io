@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: archive
 # titles:
 #   # @start locale config
 #   en      : &EN       About
