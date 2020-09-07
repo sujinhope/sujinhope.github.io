@@ -100,3 +100,12 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /archive.html?tag=Algorithm
+
+
+    docs-en:
+      - title:      Projects
+        children:
+          - title:  My Projects
+            url:    /docs/myproject
+          - title:  English
+            url:    /docs/en
