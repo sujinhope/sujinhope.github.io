@@ -25,15 +25,15 @@ titles:
   # @end locale config
 ---
 
-<div class="layout--archive js-all">
+<div class="layout--project js-all">
   {%- include tags.html -%}
-  <div class="js-result layout--archive__result d-none">
+  <div class="js-result layout--project__result d-none">
     {%- include article-list.html articles=site.studys type='brief' show_info=true reverse=true group_by='year' -%}
   </div>
 </div>
 
 <script>
-  {%- include scripts/archieve.js -%}
+  {%- include scripts/project.js -%}
 </script>
 
 {{ content }}
