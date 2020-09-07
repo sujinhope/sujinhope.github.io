@@ -26,7 +26,7 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       About # CS
+      en      : &EN       Project # CS
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -38,7 +38,7 @@ header:
       zh-Hant : &ZH_HANT  # 關於
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
-      ko      : &KO       소개 # CS
+      ko      : &KO       프로젝트 # CS
       ko-KR   : *KO
       fr      : &FR       # À propos
       fr-BE   : *FR
