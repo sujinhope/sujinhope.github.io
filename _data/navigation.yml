@@ -26,7 +26,7 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       CS
+      en      : &EN       About # CS
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -38,7 +38,7 @@ header:
       zh-Hant : &ZH_HANT  # 關於
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
-      ko      : &KO       CS
+      ko      : &KO       소개 # CS
       ko-KR   : *KO
       fr      : &FR       # À propos
       fr-BE   : *FR
@@ -47,8 +47,8 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
-    # url: /about.html
-    url: /archive.html?tag=CS
+    url: /about.html
+    # url: /archive.html?tag=CS
 
   - titles:
       # @start locale config
