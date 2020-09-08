@@ -52,7 +52,7 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       MyPortfolio
+      en      : &EN       Portfolio
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
