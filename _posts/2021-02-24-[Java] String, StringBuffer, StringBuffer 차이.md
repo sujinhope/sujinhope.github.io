@@ -1,15 +1,9 @@
-# 2020-11-03-[Java] String vs StringBuffer vs StringBuffer
-
-
-
-
-
 **목차**
 
 1. <a href="#title1">String과 StringBuilder, StringBuffer의 차이</a>
 2. <a href="#title2">StringBuilder와 StringBuffer의 차이</a>
 3. <a href="#title3">특징 - 정리</a>
-4. <a href="#title4">M</a>
+4. <a href="#title4">속도 비교</a>
 
 
 
@@ -59,7 +53,7 @@ String과 StringBuilder, StringBuffer의 가장 큰 차이는 값이 변경되�
 
 그렇다면 과연 StringBuilder와 StringBuffer의 차이는 무엇일까?
 
-둘의 차이는 멀티쓰레드 환경에서 **Thread Safe 한가 아닌가**()동기화가 되느냐 되지 않느냐의 차이다. `StringBuilder`의 경우 **Synchronization**이 적용되어 있기 때문에
+둘의 차이는 멀티쓰레드 환경에서 **Thread Safe 한가 아닌가**()동기화가 되느냐 되지 않느냐의 차이다. `StringBuilder`의 경우 **Synchronization**이 적용되어 있기 때문에 연산 속도 측면에서는 `StringBuffer` 가 빠른 편이다.
 
 <br/><br/><br/>
 
@@ -75,7 +69,7 @@ String과 StringBuilder, StringBuffer의 가장 큰 차이는 값이 변경되�
 
   => String 연산이 많은 경우 StringBuilder나 StringBuffer를 이용하는 것이 좋다.
 
-<br/><br/>
+<br/>
 
 ##### StringBuilder
 
@@ -83,7 +77,7 @@ String과 StringBuilder, StringBuffer의 가장 큰 차이는 값이 변경되�
 - 멀티쓰레드에 **Thread Safe**하도록 동기화 되어 있음
 - Synchronization이 적용되어 있기 때문에 Multi Thread 환경에서 안전함
 
-<br/><br/>
+<br/>
 
 ##### StringBuffer
 
@@ -96,7 +90,7 @@ String과 StringBuilder, StringBuffer의 가장 큰 차이는 값이 변경되�
 
 ### 속도 비교
 
-- String <<<<<< StringBuilder < StringBuffer
+`String` <<<<<< `StringBuilder` < `StringBuffer`
 
 <br/><br/><br/>
 
