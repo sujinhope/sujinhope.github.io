@@ -11,7 +11,7 @@ tags:
 
 1. <a href="#title1">동기(Sync)와 비동기(Async)</a>
 2. <a href="#title2">블로킹(Blocking)과 논블로킹(Non-Blocking)</a>
-3. <a href="#title3">예제 - 동기+블로킹과 비동기+논블로킹</a>
+3. <a href="#title3">예제 - 동기+블로킹, 동기+논블로킹, 비동기+블로킹, 비동기+논블로킹</a>
 
 <br/>
 
